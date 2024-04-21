@@ -1,0 +1,25 @@
+name: PixelByte - Feature Request
+description: Share Suggestion or Feature Request!
+assignees: "NorthWestTreesgaming"
+title: "[Feature] <title>"
+labels: [New, Feature]
+body:
+- type: textarea
+  attributes:
+    label: Suggestion/Feature Description
+    description: |
+      - *(REQUIRED)*
+      Describe the suggestion or feature here. 
+      *Example:* Increase the distance for devices to connect to towers.
+    placeholder: Describe the suggestion or feature here. 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Attachments
+    description: |
+      - *(OPTIONAL)*
+      You can also drag and drop images here to share them as examples.
+    placeholder: Drag and drop the files here.
+  validations:
+    required: false
